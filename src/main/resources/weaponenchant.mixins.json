@@ -4,9 +4,11 @@
   "package": "net.keegancuff.weaponenchant.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EnchantmentMixin",
+    "SweepingEnchantmentMixin",
+    "EnchantmentHelperMixin"
   ],
   "client": [
-    "EnchantmentMixin"
   ],
   "injectors": {
     "defaultRequire": 1

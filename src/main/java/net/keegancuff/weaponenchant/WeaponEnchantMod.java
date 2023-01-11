@@ -1,6 +1,7 @@
 package net.keegancuff.weaponenchant;
 
 import net.fabricmc.api.ModInitializer;
+import net.keegancuff.weaponenchant.config.Configs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +11,6 @@ public class WeaponEnchantMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		Configs.loadConfigs();
 	}
 }
