@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "weaponenchant",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Weapon Enchantments Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -14,16 +14,15 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.keegancuff.weaponenchant.WeaponEnchantMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "weaponenchant.mixins.json"
   ],
 
   "depends": {
